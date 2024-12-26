@@ -5,9 +5,9 @@ import { api } from "../../../convex/_generated/api";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { BookOpen, Code, Grid, Layers, Search, Tag, X } from "lucide-react";
-import SnippetsPageSkeleton from "../(root)/_components/SnippetsPageSkeleton";
-import SnippetCard from "../(root)/_components/SnippetCard";
-import NavigationHeader from "../(root)/_components/NavigationHeader";
+import SnippetsPageSkeleton from "./_components/SnippetsPageSkeleton";
+import SnippetCard from "./_components/SnippetCard";
+import NavigationHeader from "../../components/NavigationHeader";
 
 function SnippetsPage() {
   const snippets = useQuery(api.snippets.getSnippets);

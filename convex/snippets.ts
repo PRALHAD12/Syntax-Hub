@@ -97,7 +97,7 @@ export const starSnippet = mutation({
       });
     }
   },
-});
+});       
 
 export const addComment = mutation({
   args: {
